@@ -2,7 +2,7 @@ module.exports = {
   title: `youngmin's blog`,
   description: `송영민 (안드로이드 개발자)`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://youngminth.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
