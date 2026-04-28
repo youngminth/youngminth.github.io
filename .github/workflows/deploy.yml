@@ -18,6 +18,11 @@ jobs:
           node-version: '14'
           cache: 'npm'
 
+      - name: Git Identity 설정
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+
       - name: Install & Build
         run: |
           npm install
